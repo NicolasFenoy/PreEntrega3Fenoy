@@ -160,6 +160,11 @@ header img {
     font-style: italic;
 }
 
+.VideoDelIndex {
+    width: 50%;
+    height: 450px;
+}
+
 .DulceSalado {
     text-align: center;
     color: aliceblue;
@@ -195,7 +200,7 @@ header img {
 }
 
 .ImagenDos {
-    width: 800px;
+    width: 1fr;
     height: 450px;
 }
 
@@ -454,16 +459,17 @@ div textarea:hover {
 
     .ImagenCero {
         display: flex;
+        flex-direction: column;
     }
 
     .ImagenUno {
-        width: 1fr;
-        height: 1fr;
+        width: 100%;
+        height: 100%;
     }
 
     .ImagenDos {
-        width: 1fr;
-        height: 1fr;
+        width: 100%;
+        height: 100%;
     }
 
     .LaAtmósfera {
@@ -479,10 +485,11 @@ div textarea:hover {
 
     .ImgP {
         display: flex;
+        flex-direction: column;
     }
 
     .ImgAtmósfera {
-        width: 1fr;
+        width: 100%;
         height: 1fr;
     }
 
@@ -599,8 +606,8 @@ div textarea:hover {
     }
 
     .ImagenDeLaMuerte {
-        width: 1fr;
-        height: 1fr;
+        width: 100%;
+        height: 100%;
     }
 
     .ModificarAguaAgua {
@@ -660,6 +667,11 @@ div textarea:hover {
         text-transform: uppercase;
         background-color: rgb(90, 255, 172);
         font-style: italic;
+    }
+
+    .VideoDelIndex {
+        width: 100%;
+        height: 450px;
     }
 
     .DulceSalado {
@@ -813,11 +825,15 @@ div textarea:hover {
     padding: 5px;
 }
 
-.Habitad {
+.Habitat {
     text-align: center;
     padding: 5px;
     background-color: darkblue;
     color: aliceblue;
+}
+
+.ImgAnimalesImg {
+    width: 100%;
 }
 
 .Argentina {
@@ -894,11 +910,15 @@ figcaption {
         padding: 5px;
     }
 
-    .Habitad {
+    .Habitat {
         text-align: center;
         padding: 5px;
         background-color: rgb(255, 0, 0);
         color: aliceblue;
+    }
+
+    .ImgAnimalesImg {
+        width: 100%;
     }
 
     .Argentina {
@@ -910,6 +930,7 @@ figcaption {
 
     .AnimalArgentina {
         display: flex;
+        flex-direction: column;
     }
 
     .FigCaptionAnimalArgentina {
@@ -970,11 +991,15 @@ figcaption {
         padding: 5px;
     }
 
-    .Habitad {
+    .Habitat {
         text-align: center;
         padding: 5px;
         background-color: rgb(0, 255, 128);
         color: rgb(161, 159, 42);
+    }
+
+    .ImgAnimalesImg {
+        width: 100%;
     }
 
     .Argentina {
@@ -986,6 +1011,7 @@ figcaption {
 
     .AnimalArgentina {
         display: flex;
+        flex-direction: column;
     }
 
     .FigCaptionAnimalArgentina {
@@ -1308,6 +1334,12 @@ figcaption {
         height: 1fr;
         background-color: orange;
     }
+
+    .GridVirus {
+        display: flex;
+        flex-direction: column-reverse;
+        color: aliceblue;
+    }
 }
 
 /*VISTA MOBILE BACTERIAS*/
@@ -1334,6 +1366,12 @@ figcaption {
         width: 1fr;
         height: 1fr;
         background-color: yellow;
+    }
+
+    .GridVirus {
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
     }
 }
 
@@ -1425,6 +1463,17 @@ figcaption {
         color: deepskyblue;
     }
 
+    .PárrafoDescubrimiento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ImgDescubrimiento {
+        width: 100%;
+        height: 100%;
+    }
+    
+
     .Biografia {
         text-align: center;
         padding: 5px;
@@ -1463,6 +1512,16 @@ figcaption {
         color: deepskyblue;
     }
 
+    .PárrafoDescubrimiento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ImgDescubrimiento {
+        width: 100%;
+        height: 100%;
+    }
+    
     .Biografia {
         text-align: center;
         padding: 5px;
