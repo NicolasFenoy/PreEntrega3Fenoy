@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
 
 * {
     margin: 0;
@@ -10,80 +10,80 @@
 /*INDEX*/
 
 body {
-    background-color: rgb(255, 212, 159);
-    border: solid;
+    background-color: $blanco;
+    border: $borde;
 }
 
 .claseNav {
-    background-color: rgb(0, 255, 0);
+    background-color: $verde;
 }
 
 .claseNav img {
-    width: 175px;
-    height: 150px;
-    border: solid;
+    width: $cientosetentaYcinco;
+    height: $cientoCincuenta;
+    border: $borde;
 }
 
 .claseNav a {
-    color: blue;
+    color: $azul;
     text-decoration: none;
-    font-style: italic;
+    font-style: $estilo;
 }
 
 .claseNav a:visited {
-    color: crimson;
+    color: $rojo;
 }
 
 .claseNav a:active {
-    color: aliceblue;
+    color: $blanco;
 }
 
 header {
-    padding: 5px;
-    background-color: crimson;
+    padding: $cincoPadding;
+    background-color: $rojo;
 }
 
 header img {
-    width: 100%;
-    height: 100%;
+    width: $cienPorciento;
+    height: $cienPorciento;
 }
 
 .vida {
-    background-color: darkblue;
-    padding: 5px;
-    text-transform: uppercase;
-    color: aliceblue;
+    background-color: $azul;
+    padding: $cincoPadding;
+    text-transform: $mayuscula;
+    color: $blanco;
 }
 
 .tituloVida {
-    text-align: center;
-    color: aliceblue;
-    font-style: italic;
+    text-align: $ubicacion;
+    color: $blanco;
+    font-style: $estilo;
 }
 
 .tipos {
-    text-align: center;
+    text-align: $ubicacion;
 }
 
 .tiposDeReinosAnimales {
-    color: aliceblue;
-    text-transform: uppercase;
-    font-style: italic;
+    color: $blanco;
+    text-transform: $mayuscula;
+    font-style: $estilo;
 }
 
 .reinoAnimal {
-    display: inline-block;
-    padding: 35px;
-    color: aliceblue;
+    display: $display;
+    padding: $treintaYCincoPadding;
+    color: $blanco;
     list-style-type: none;
 }
 
 .muerte {
-    padding: 5px;
-    text-align: center;
-    background-color: darkblue;
-    color: red;
-    align-items: center;
+    padding: $cincoPadding;
+    text-align: $ubicacion;
+    background-color: $azul;
+    color: $rojo;
+    align-items: $ubicacion;
 }
 
 .animacionMuerte {
@@ -93,101 +93,101 @@ header img {
 .calaveraCalavera {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: $ubicacion;
 }
 
 .imagenDeLaMuerte {
-    width: 400px;
-    height: 400px;
+    width: $cuatrocientosTama;
+    height: $cuatrocientosTama;
 }
 
 .modificarAguaAgua {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
-    text-align: center;
+    align-items: $ubicacion;
+    text-align: $ubicacion;
 }
 
 .queEsElAgua {
-    text-align: center;
-    background-color: darkblue;
-    color: aliceblue;
+    text-align: $ubicacion;
+    background-color: $azul;
+    color: $blanco;
 }
 
 .moleculaAgua {
-    background-color: darkblue;
+    background-color: $azul;
 }
 
 .cualidades {
-    background-color: darkblue;
-    color: aliceblue;
+    background-color: $azul;
+    color: $blanco;
 }
 
 .elAgua {
-    text-align: center;
-    background-color: darkblue;
+    text-align: $ubicacion;
+    background-color: $azul;
 }
 
 .cualidadesDelAgua {
-    display: inline-block;
-    padding: 100px;
-    color: aliceblue;
+    display: $display;
+    padding: $cienPadding;
+    color: $blanco;
     list-style-type: none;
 }
 
 .cicloAgua {
-    text-align: center;
-    color: aliceblue;
-    background-color: darkblue;
+    text-align: $ubicacion;
+    color: $blanco;
+    background-color: $azul;
 }
 
 .fasesCicloAgua {
-    display: inline-block;
-    padding: 100px;
+    display: $display;
+    padding: $cienPadding;
     list-style-type: none;
 }
 
 .videoAgua {
-    background-color: darkblue;
-    color: aliceblue;
-    padding: 5px;
-    text-align: center;
+    background-color: $azul;
+    color: $blanco;
+    padding: $cincoPadding;
+    text-align: $ubicacion;
 }
 
 .tituloDeVideoExplicativo {
-    text-transform: uppercase;
-    background-color: darkblue;
-    font-style: italic;
+    text-transform: $mayuscula;
+    background-color: $azul;
+    font-style: $estilo;
 }
 
 .videoDelIndex {
-    width: 50%;
-    height: 450px;
+    width: $cincuentaPorciento;
+    height: $cuatrocientosCincuenta;
 }
 
 .dulceSalado {
-    text-align: center;
-    color: aliceblue;
-    background-color: darkblue;
-    padding: 5px;
+    text-align: $ubicacion;
+    color: $blanco;
+    background-color: $azul;
+    padding: $cincoPadding;
 }
 
 .saladoDulce {
-    width: 100%;
-    height: 100%;
+    width: $cienPorciento;
+    height: $cienPorciento;
 }
 
 .elSol {
-    padding: 5px;
-    text-align: center;
-    background-color: darkblue;
-    color: aliceblue;
+    padding: $cincoPadding;
+    text-align: $ubicacion;
+    background-color: $azul;
+    color: $blanco;
 }
 
 .tituloEstrella {
-    text-transform: uppercase;
-    background-color: darkblue;
-    font-style: italic;
+    text-transform: $mayuscula;
+    background-color: $azul;
+    font-style: $estilo;
 }
 
 .imagenCero {
@@ -195,24 +195,24 @@ header img {
 }
 
 .imagenUno {
-    width: 800px;
-    height: 450px;
+    width: $ochocientosPixeles;
+    height: $cuatrocientosCincuenta;
 }
 
 .imagenDos {
-    width: 1fr;
-    height: 450px;
+    width: $unidadRelativa;
+    height: $cuatrocientosCincuenta;
 }
 
 .laAtmósfera {
-    background-color: darkblue;
-    color: aliceblue;
-    text-align: center;
+    background-color: $azul;
+    color: $blanco;
+    text-align: $ubicacion;
 }
 
 .tituloAtmósfera {
-    text-transform: uppercase;
-    background-color: darkblue;
+    text-transform: $mayuscula;
+    background-color: $azul;
 }
 
 .imgP {
@@ -220,57 +220,58 @@ header img {
 }
 
 .imgAtmósfera {
-    width: 50%;
-    height: 50%;
+    width: $cincuentaPorciento;
+    height: $cincuentaPorciento;
 }
 
 .artículo {
-    display: inline-block;
-    padding: 25px;
+    display: $display;
+    padding: $veinticincoPadding;
     list-style-type: none;
 }
 
 .formulario {
-    text-align: center;
-    padding: 5px;
-    color: aliceblue;
-    background-color: darkblue;
+    text-align: $ubicacion;
+    padding: $cincoPadding;
+    color: $blanco;
+    background-color: $azul;
 }
 
 .contactoSugerencias {
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(174, 0, 255);
-    color: rgb(0, 255, 0);
+    font-style: $estilo;
+    font-family: $fontFont;
+    background-color: $violeta;
+    color: $verde;
 }
 
 .divLabel {
-    display: inline-block;
+    display: $display;
 }
 
 .cuadroFormulario {
-    width: 45%;
-    height: 450px;
+    width: $cuarentaYCinco;
+    height: $cuatrocientosCincuenta;
 }
 
 footer {
-    padding: 5px;
-    background-color: aliceblue;
-    text-align: center;
+    padding: $cincoPadding;
+    background-color: $blanco;
+    text-align: $ubicacion;
 }
 
 .footer {
-    color: red;
-    background-color: rgb(4, 0, 255);
+    color: $rojo;
+    background-color: $azul;
     padding: 7px;
 }
+
 
 p {
     font-size: 1.9em;
 }
 
 h1 {
-    font-size: 2.8em;
+    font-size: 2.9em;
 }
 
 h2 {
@@ -278,7 +279,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.3em;
+    font-size: 2.1em;
 }
 
 li {
@@ -287,14 +288,13 @@ li {
 
 form input:hover {
     cursor: pointer;
-    background-color: aqua;
+    background-color: $aqua;
 }
 
 div textarea:hover {
     cursor: pointer;
-    background-color: aqua;
+    background-color: $aqua;
 }
-
 
 /*TABLE INDEX*/
 
@@ -778,33 +778,34 @@ div textarea:hover {
     }
 }
 
-/*PAGINA DE LOS ANIMALES*/
+//ANIMALES
 
 .claseNavAnimales {
-    background-color: rgb(0, 255, 0);
-    color: blue;
+    background-color: $verde;
+    color: $azul;
 }
 
 .claseNavAnimales img {
-    width: 175px;
-    height: 150px;
-    border: solid;
+    width: $cientosetentaYcinco;
+    height: $cientoCincuenta;
+    border: $borde;
 }
 
 .claseNavAnimales a:visited {
-    color: crimson;
+    color: $rojo;
 }
 
 .claseNavAnimales a:active {
-    color: aliceblue;
+    color: $blanco;
 }
 
+
 .animales {
-    text-align: center;
-    background-color: darkblue;
-    color: aliceblue;
-    padding: 5px;
-    text-transform: uppercase;
+    text-align: $ubicacion;
+    background-color: $azul;
+    color: $blanco;
+    padding: $cincoPadding;
+    text-transform: $mayuscula;
 }
 
 .animacionAnimales {
@@ -812,10 +813,10 @@ div textarea:hover {
 }
 
 .vertebradosInvertebrados {
-    background-color: darkblue;
-    color: aliceblue;
-    padding: 5px;
-    text-align: center;
+    background-color: $azul;
+    color: $blanco;
+    padding: $cincoPadding;
+    text-align: $ubicacion;
 }
 
 .vertebradoInvertebradoFlex {
@@ -824,33 +825,33 @@ div textarea:hover {
 }
 
 .imgVertebradoInvertebrado {
-    width: 100%;
-    height: 100%;
+    width: $cienPorciento;
+    height: $cienPorciento;
 }
 
 .alimentación {
-    text-align: center;
-    background-color: darkblue;
-    color: aliceblue;
-    padding: 5px;
+    text-align: $ubicacion;
+    background-color: $azul;
+    color: $blanco;
+    padding: $cincoPadding;
 }
 
 .habitat {
-    text-align: center;
-    padding: 5px;
-    background-color: darkblue;
-    color: aliceblue;
+    text-align: $ubicacion;
+    padding: $cincoPadding;
+    background-color: $azul;
+    color: $blanco;
 }
 
 .imgAnimalesImg {
-    width: 100%;
+    width: $cienPorciento;
 }
 
 .argentina {
-    padding: 5px;
-    text-align: center;
-    background-color: darkblue;
-    color: aliceblue;
+    padding: $cincoPadding;
+    text-align: $ubicacion;
+    background-color: $azul;
+    color: $blanco;
 }
 
 .argentinaArg {
@@ -866,7 +867,7 @@ figcaption {
 }
 
 .figCaptionAnimalArgentina {
-    background-color: darkblue;
+    background-color: $azul;
 }
 
 .imgArgentina {
@@ -1036,89 +1037,88 @@ figcaption {
 }
 
 
-
-/*PAGINA DE LAS ARQUEAS*/
+//ARQUEAS
 
 .claseNavArqueas {
-    background-color: rgb(0, 255, 0);
-    color: blue;
+    background-color: $verde;
+    color: $azul;
 }
 
 .claseNavArqueas img {
-    width: 175px;
-    height: 150px;
-    border: solid;
+    width: $cientosetentaYcinco;
+    height: $cientoCincuenta;
+    border: $borde;
 }
 
 .claseNavArqueas a:visited {
-    color: crimson;
+    color: $rojo;
 }
 
 .claseNavArqueas a:active {
-    color: aliceblue;
+    color: $blanco;
 }
 
 .arqueas {
-    text-align: center;
-    padding: 5px;
-    background-color: darkblue;
-    color: aliceblue;
-    text-transform: uppercase;
+    text-align: $ubicacion;
+    padding: $cincoPadding;
+    background-color: $azul;
+    color: $blanco;
+    text-transform: $mayuscula;
 }
 
 .párrafoDiferente {
-    color: red;
+    color: $rojo;
 }
 
 .párrafoDiferenteDos {
-    color: chartreuse;
+    color: $verdeamarillo;
 }
 
 .párrafoDiferenteTres {
-    color: aqua;
+    color: $aqua;
 }
 
 .tipos {
-    text-align: center;
-    padding: 5px;
-    background-color: darkblue;
-    color: aliceblue;
+    text-align: $ubicacion;
+    padding: $cincoPadding;
+    background-color: $azul;
+    color: $blanco;
 }
 
 .reproducción {
-    text-align: center;
-    padding: 5px;
-    background-color: darkblue;
-    color: aliceblue;
+    text-align: $ubicacion;
+    padding: $cincoPadding;
+    background-color: $azul;
+    color: $blanco;
 }
 
 .flexArqueas {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: $cienPorciento;
 }
 
 .gemaciónBinaria {
-    border: solid;
-    color: aliceblue;
+    border: $borde;
+    color: $blanco;
 }
 
 .carl {
-    text-align: center;
-    padding: 5px;
-    background-color: darkblue;
-    color: aliceblue;
+    text-align: $ubicacion;
+    padding: $cincoPadding;
+    background-color: $azul;
+    color: $blanco;
 }
 
 .imgCarl {
-    width: 100%;
-    height: 100%;
+    width: $cienPorciento;
+    height: $cienPorciento;
 }
 
 .gridDescubrimiento {
-    display: grid;
-    grid-template-columns: 55% 1fr;
-    grid-template-rows: 470px 470px 470px;
+    display: $grid;
+    grid-template-columns: $cincuentaYcincoporciento $unidadRelativa;
+    grid-template-rows: $cuatrocientosSetenta $cuatrocientosSetenta $cuatrocientosSetenta;
     grid-template-areas:
         "img img h2"
         "img img p"
@@ -2052,7 +2052,7 @@ figcaption {
     .tresVideos {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: $ubicacion;
     }
 
     .otrosTresVideos {
@@ -2060,3 +2060,7 @@ figcaption {
         height: 200px;
     }
 }
+
+
+
+
